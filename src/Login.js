@@ -38,8 +38,14 @@ function FxnLogin()
     return(
 <div>
     <button onClick={LoggedIn}>Login</button><br></br>
-    <p></p>
-    <button onClick={LoggedOut}>LogOut</button>
+    UserName <input type="text" name="UserName"/> 
+    Password       <input type="text" name="Password" />
+    Temperature <input type="text" name="Temperature" value ="26C"/>
+    
+   
+    <button>Search</button>
+
+    
 </div>
     );
 }

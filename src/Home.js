@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import FxnLogin from'./Login';
+//import moment from "moment";
+import Login from'./Login';
+import props from 'prop-types';
+
+
 function ShowHome(){
 return(
  
@@ -12,6 +16,7 @@ return(
 <ul>
 <li><a href="Home">Home</a></li>
 <li><a href="Login">Login</a></li>
+ 
 
 </ul>
 </nav> 

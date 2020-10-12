@@ -13,12 +13,6 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     
-    <div>
-    UserName <input type="text" name="UserName"/> 
-    Password       <input type="text" name="Password" />
-
-    
-</div>
   </React.StrictMode>,
   document.getElementById('root')
 )
