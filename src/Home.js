@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-
+import Login from'./Login';
 function ShowHome(){
 return(
  
-
-
 <>
 <div class="image"> 
 
